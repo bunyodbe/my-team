@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.close-nav {
+  right: -100% !important;
+  transition: 0.3s;
+}
