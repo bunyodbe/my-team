@@ -21,7 +21,7 @@ const Navbar = () => {
               }`}
             >
               <a
-                className="font-livvic text-[18px] text-white leading-[28px] transition-[.2s] hover:text-lightCoral"
+                className="font-livvic text-[18px] text-white leading-[28px] transition duration-200 ease-in hover:text-lightCoral"
                 href=""
               >
                 {link.title}

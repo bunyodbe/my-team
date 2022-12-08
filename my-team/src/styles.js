@@ -13,6 +13,8 @@ const styles = {
   featurePadding:
     "sm:pt-[136px] md:pt-[200px] pt-[100px] md:pb-[140px] sm:pb-[100px] pb-[64px]",
   heroPadding: "ss:pt-[120px] pt-[80px] ss:pb-[250px] pb-[200px]",
+  headingAfter:
+    "after:contetn-[''] after:absolute after:w-[50px] after:h-[4px] after:bg-lightCoral after:top-[-32px] after:left-[0]",
 };
 
 export default styles;

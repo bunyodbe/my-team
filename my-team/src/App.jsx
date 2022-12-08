@@ -8,7 +8,7 @@ import {
   Footer,
 } from "./components";
 
-import { homeShape_3 } from "./assets";
+import { homeShape_3, homeShape_1 } from "./assets";
 
 const App = () => (
   <div className="bg-midnightGreen w-full overflow-x-hidden relative">
@@ -18,10 +18,17 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-midnightGreen`}>
+    <div
+      className={`${styles.paddingX} ${styles.flexCenter} bg-midnightGreen relative z-[10]`}
+    >
       <div className={`${styles.boxWidth} `}>
         <Hero />
       </div>
+      <img
+        src={homeShape_1}
+        alt="shape"
+        className="sm:block hidden absolute left-0 bottom-[45%]  z-0 w-[100px] h-[200px]"
+      />
     </div>
 
     <div
@@ -33,7 +40,7 @@ const App = () => (
       <img
         src={homeShape_3}
         alt="shape"
-        className="absolute right-0 sm:bottom-0  z-[0]"
+        className="absolute right-0 sm:bottom-0 bottom-[calc(100%-244px)]  z-[0]"
       />
     </div>
 

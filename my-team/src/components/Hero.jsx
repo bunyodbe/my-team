@@ -19,11 +19,7 @@ const Hero = () => (
         about to change that.
       </p>
     </div>
-    <img
-      src={homeShape_1}
-      alt="shape"
-      className="sm:block hidden absolute -left-[170px]  z-0 w-[100px] h-[200px]"
-    />
+
     <img
       src={homeShape_2}
       alt="shape"

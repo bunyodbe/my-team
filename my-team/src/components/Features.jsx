@@ -6,7 +6,7 @@ const Features = () => (
     className={`flex sm:flex-row flex-col gap-[20px] justify-between ${styles.featurePadding} relative z-[5]`}
   >
     <h2
-      className={`${styles.heading2} text-white flex-1 sm:mb-0 mb-[56px] sm:max-w-auto max-w-[60%]`}
+      className={`${styles.heading2} text-white relative flex-1 sm:mb-0 mb-[56px] sm:max-w-auto max-w-[60%] ${styles.headingAfter}`}
     >
       Build & manage <br className="sm:block hidden" /> distributed teams{" "}
       <br className="sm:block hidden" /> like no one else.
