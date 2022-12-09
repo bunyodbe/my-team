@@ -1,14 +1,7 @@
 import styles from "./styles";
-import {
-  Navbar,
-  Hero,
-  Features,
-  Testimonials,
-  CTA,
-  Footer,
-} from "./components";
-
-import { homeShape_3, homeShape_1 } from "./assets";
+import { Navbar, Footer } from "./components";
+import { About, Contact, Home } from "./pages";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => (
   <div className="bg-midnightGreen w-full overflow-x-hidden relative">
@@ -18,43 +11,11 @@ const App = () => (
       </div>
     </div>
 
-    <div
-      className={`${styles.paddingX} ${styles.flexCenter} bg-midnightGreen relative z-[10]`}
-    >
-      <div className={`${styles.boxWidth} `}>
-        <Hero />
-      </div>
-      <img
-        src={homeShape_1}
-        alt="shape"
-        className="sm:block hidden absolute left-0 bottom-[45%]  z-0 w-[100px] h-[200px]"
-      />
-    </div>
-
-    <div
-      className={`${styles.paddingX} ${styles.flexCenter} bg-stateGreen relative z-[10]`}
-    >
-      <div className={`${styles.boxWidth}`}>
-        <Features />
-      </div>
-      <img
-        src={homeShape_3}
-        alt="shape"
-        className="absolute right-0 sm:bottom-0 bottom-[calc(100%-244px)]  z-[0]"
-      />
-    </div>
-
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-deepGreen`}>
-      <div className={`${styles.boxWidth}`}>
-        <Testimonials />
-      </div>
-    </div>
-
-    <div className={`${styles.paddingX} ${styles.flexCenter} bg-lightCoral`}>
-      <div className={`${styles.boxWidth}`}>
-        <CTA />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
 
     <div className={`${styles.paddingX} ${styles.flexCenter} bg-darkGreen`}>
       <div className={`${styles.boxWidth}`}>

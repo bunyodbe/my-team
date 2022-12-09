@@ -7,6 +7,9 @@ import {
   c_user_1,
   c_user_2,
   c_user_3,
+  facebook,
+  pinteres,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -63,4 +66,10 @@ export const feedback = [
     title: "Co-founder of MyPhysio",
     img: c_user_3,
   },
+];
+
+export const socials = [
+  { id: "facebook", icon: facebook },
+  { id: "pinteres", icon: pinteres },
+  { id: "twitter", icon: twitter },
 ];

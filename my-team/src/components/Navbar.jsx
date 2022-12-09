@@ -31,7 +31,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="ss:block hidden">
-        <Button content="contact us" color="#fff" />
+        <Button content="contact us" color="white" />
       </div>
       <img
         src={menu}
@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <Button content="contact us" color="#fff" />
+        <Button content="contact us" color="white" />
         <img
           src={close}
           alt="toggle"

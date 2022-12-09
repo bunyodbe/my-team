@@ -6,6 +6,7 @@ import CTA from "./CTA";
 import Footer from "./Footer";
 import Button from "./Button";
 import FeatureCard from "./FeatureCard";
+import FeedbackCard from "./FeedbackCard";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Footer,
   Button,
   FeatureCard,
+  FeedbackCard,
 };
