@@ -21,8 +21,8 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  { id: "home", title: "home" },
-  { id: "about", title: "about" },
+  { id: "home", title: "home", path: "/" },
+  { id: "about", title: "about", path: "/about" },
 ];
 
 export const features = [

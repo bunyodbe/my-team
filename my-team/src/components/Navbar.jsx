@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
 import { menu, close, logo } from "../assets";
+import { NavLink } from "react-router-dom";
 import Button from "./Button";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -20,12 +21,12 @@ const Navbar = () => {
                 index !== navLinks.length - 1 ? "mr-[40px]" : "mr-0"
               }`}
             >
-              <a
+              <NavLink
+                to={link.path}
                 className="font-livvic text-[18px] text-white leading-[28px] transition duration-200 ease-in hover:text-lightCoral"
-                href=""
               >
                 {link.title}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>
@@ -52,12 +53,12 @@ const Navbar = () => {
                 index !== navLinks.length - 1 ? "mb-[24px]" : "mb-[36px]"
               }`}
             >
-              <a
+              <NavLink
+                to={link.path}
                 className="font-livvic text-[18px] text-white leading-[28px] transition-[.2s] hover:text-lightCoral"
-                href=""
               >
                 {link.title}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>

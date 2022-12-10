@@ -1,5 +1,6 @@
 import { logo } from "../assets";
 import { navLinks, socials } from "../constants";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => (
   <footer className="sm:py-[48px] py-[60px] flex sm:flex-row flex-col sm:justify-between justify-start">
@@ -14,12 +15,12 @@ const Footer = () => (
                 index !== navLinks.length - 1 ? "mr-[25px]" : "mr-0"
               }`}
             >
-              <a
+              <NavLink
+                to={link.path}
                 className="font-livvic text-[18px] text-white leading-[28px] transition duration-200 ease-in hover:text-lightCoral"
-                href=""
               >
                 {link.title}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>
