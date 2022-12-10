@@ -1,5 +1,5 @@
 import styles from "../styles";
-import { homeShape_1, homeShape_2 } from "../assets";
+import { homeShape_2 } from "../assets";
 const Hero = () => (
   <section
     className={`flex sm:flex-row flex-col sm:justify-between gap-5 sm:items-end items-center  relative z-[10] ${styles.heroPadding}`}

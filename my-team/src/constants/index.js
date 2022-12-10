@@ -1,15 +1,23 @@
 import {
-  logo,
   boy,
   settings,
   chart,
-  quotes,
   c_user_1,
   c_user_2,
   c_user_3,
   facebook,
   pinteres,
   twitter,
+  d_user_1,
+  d_user_2,
+  d_user_3,
+  d_user_4,
+  d_user_5,
+  c_logo_1,
+  c_logo_2,
+  c_logo_3,
+  c_logo_4,
+  c_logo_5,
 } from "../assets";
 
 export const navLinks = [
@@ -72,4 +80,63 @@ export const socials = [
   { id: "facebook", icon: facebook },
   { id: "pinteres", icon: pinteres },
   { id: "twitter", icon: twitter },
+];
+
+export const directors = [
+  {
+    id: "NikitaMarks",
+    name: "Nikita Marks",
+    title: "Founder & CEO",
+    img: d_user_1,
+    content:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+  {
+    id: "CristianDuncan",
+    name: "Cristian Duncan",
+    title: "Co-founder & COO",
+    img: d_user_2,
+    content:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+  {
+    id: "CruzHamer",
+    name: "Cruz Hamer",
+    title: "Co-founder & CTO",
+    img: d_user_3,
+    content:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+  {
+    id: "DrakeHeaton",
+    name: "Drake Heaton",
+    title: "Business Development Lead",
+    img: d_user_4,
+    content:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+  {
+    id: "GriffinWise",
+    name: "Griffin Wise",
+    title: "Lead Marketing",
+    img: d_user_5,
+    content:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+  {
+    id: "Aden Allan",
+    name: "Aden Allan",
+    title: "Founder & CEO",
+    img: d_user_2,
+    content:
+      "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  },
+];
+
+export const clients = [
+  { id: "client-1", logo: c_logo_1 },
+  { id: "client-2", logo: c_logo_2 },
+  { id: "client-3", logo: c_logo_3 },
+  { id: "client-4", logo: c_logo_4 },
+  { id: "client-5", logo: c_logo_5 },
 ];

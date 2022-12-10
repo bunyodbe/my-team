@@ -7,6 +7,10 @@ import Footer from "./Footer";
 import Button from "./Button";
 import FeatureCard from "./FeatureCard";
 import FeedbackCard from "./FeedbackCard";
+import AboutHero from "./AboutHero";
+import Directors from "./Directors";
+import DirectorCard from "./DirectorCard";
+import Clients from "./Clients";
 
 export {
   Navbar,
@@ -18,4 +22,8 @@ export {
   Button,
   FeatureCard,
   FeedbackCard,
+  AboutHero,
+  Directors,
+  DirectorCard,
+  Clients,
 };
