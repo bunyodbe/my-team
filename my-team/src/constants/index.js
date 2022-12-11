@@ -140,3 +140,13 @@ export const clients = [
   { id: "client-4", logo: c_logo_4 },
   { id: "client-5", logo: c_logo_5 },
 ];
+
+export const contactContent = [
+  { id: "content-1", icon: boy, title: "The quality of our talent network" },
+  {
+    id: "content-2",
+    icon: settings,
+    title: "Usage & implementation of our software",
+  },
+  { id: "content-3", icon: chart, title: "How we help drive innovation" },
+];

@@ -11,6 +11,8 @@ import AboutHero from "./AboutHero";
 import Directors from "./Directors";
 import DirectorCard from "./DirectorCard";
 import Clients from "./Clients";
+import ContactContent from "./ContactContent";
+import ContactForm from "./ContactForm";
 
 export {
   Navbar,
@@ -26,4 +28,6 @@ export {
   Directors,
   DirectorCard,
   Clients,
+  ContactContent,
+  ContactForm,
 };

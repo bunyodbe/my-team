@@ -9,9 +9,11 @@ const FeatureCard = ({ icon, title, content }) => (
       />
     </div>
     <div className="flex flex-col flex-1 ss:items-start items-center">
-      <h4 className="font-livvic text-[18px] font-bold text-lightCoral mb-[16px]">
-        {title}
-      </h4>
+      {title && (
+        <h4 className="font-livvic text-[18px] font-bold text-lightCoral mb-[16px]">
+          {title}
+        </h4>
+      )}
       <p className={`${styles.paragraph} ss:text-start text-center`}>
         {content}
       </p>

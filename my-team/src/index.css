@@ -7,3 +7,27 @@
   right: -100% !important;
   transition: 0.3s;
 }
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.form-input {
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1.1px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+.form-input input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: -0.12px;
+}

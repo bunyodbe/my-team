@@ -18,6 +18,7 @@ const styles = {
   aboutHeroPadding: "sm:pt-[115px] pt-[80px] sm:pb-[120px] pb-[110px]",
   directorsPadding: "sm:py-[140px] py-[110px]",
   clientsPadding: "sm:py-[100px] md:py-[140px] py-[80px]",
+  contactPadding: "ss:py-[120px] py-[90px]",
   headingAfter:
     "after:contetn-[''] after:absolute after:w-[50px] after:h-[4px] after:bg-lightCoral after:top-[-32px] after:left-[0]",
 };
