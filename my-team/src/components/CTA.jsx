@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "../styles";
 import Button from "./Button";
 
@@ -8,7 +9,9 @@ const CTA = () => (
     >
       Ready to get started?
     </h2>
-    <Button content={"contact us"} color="stateGreen" />
+    <NavLink to={"/contact"}>
+      <Button content={"contact us"} color="stateGreen" />
+    </NavLink>
   </section>
 );
 
