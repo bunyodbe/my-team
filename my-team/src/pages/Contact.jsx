@@ -1,5 +1,6 @@
 import { ContactContent, ContactForm } from "../components";
 import styles from "../styles";
+import { contactShape_1, aboutShape_2 } from "../assets";
 const Contact = () => (
   <div
     className={`${styles.paddingX} ${styles.flexCenter} bg-midnightGreen relative z-[10]`}
@@ -12,11 +13,16 @@ const Contact = () => (
         <ContactForm />
       </div>
     </div>
-    {/* <img
-      src={homeShape_1}
+    <img
+      src={aboutShape_2}
       alt="shape"
-      className="sm:block hidden absolute left-0 bottom-[45%]  z-0 w-[100px] h-[200px]"
-    /> */}
+      className="absolute left-0 sm:top-[100px] top-[50px] z-0 w-[100px] sm:h-[200px] h-[100px]"
+    />
+    <img
+      src={contactShape_1}
+      alt="shape"
+      className=" absolute right-0 bottom-0  z-0 w-[100px] sm:h-[180px] h-[100px]"
+    />
   </div>
 );
 

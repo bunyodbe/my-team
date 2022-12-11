@@ -34,7 +34,7 @@ import quotes from "./quotes.svg";
 import plus from "./plus.svg";
 import settings from "./settings.svg";
 import twitter from "./twitter.svg";
-
+import contactShape_1 from "./contactShape_1.svg";
 export {
   logo,
   menu,
@@ -72,4 +72,5 @@ export {
   quotes,
   settings,
   twitter,
+  contactShape_1,
 };

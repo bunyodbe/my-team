@@ -1,6 +1,6 @@
 import { contactContent } from "../constants";
 const ContactContent = () => (
-  <div className="md:w-[45%] w-full flex flex-col md:items-start items-center">
+  <div className="md:w-[45%] w-full flex flex-col md:items-start items-center relative z-[5]">
     <h1 className="font-livvic font-bold md:text-start text-center  sm:text-[64px] text-[40px] sm:leading-[64px] md:leading-[100px] leading-[40px] text-white">
       Contact
     </h1>

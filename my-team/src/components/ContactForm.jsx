@@ -2,12 +2,6 @@ import { useState } from "react";
 import styles from "../styles";
 import Button from "./Button";
 const ContactForm = () => {
-  //   const [name, setName] = useState("");
-  //   const [email, setEmail] = useState("");
-  //   const [company, setCompany] = useState("");
-  //   const [title, setTitle] = useState("");
-  //   const [message, setMessage] = useState("");
-
   const [state, setState] = useState({
     name: "",
     email: "",
@@ -34,7 +28,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={(e) => onSubmit(e)}
-      className="flex flex-col md:w-[45%] ss:w-[540px] w-full gap-[24px] "
+      className="flex flex-col md:w-[45%] ss:w-[540px] w-full gap-[24px] z-[5]"
     >
       <input
         type="text"
